@@ -1,25 +1,26 @@
-import logo from './logo.svg';
+import NavBar from './NavBar'
+import Home from './Home'
+import { useEffect, useState } from 'react';
+
 import './App.css';
 
-function App() {
+const App = () => {
+
+  const current_theme = localStorage.getItem('current_theme');
+
+  const [theme, setTheme] = useState(current_theme ? current_theme: 'light');
+  const [searchQuery, setSearchQuery] = useState('');
+
+  useEffect(() => {
+    localStorage.setItem('current_theme', theme)
+  }, [theme])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={`container ${theme}`}>
+      <NavBar theme={theme} setTheme={setTheme} setSearchQuery={setSearchQuery} />
+      <Home searchQuery={searchQuery}/>
     </div>
-  );
+  )
 }
 
 export default App;
