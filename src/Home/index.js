@@ -38,7 +38,7 @@ class Home extends Component {
                     <div className='cards'>
                             {filteredData.map((d) => (
                                 <div className='song-container' key={d.name}>
-                                <iframe src={d.link} width="300" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen className='video'></iframe>
+                                <iframe src={d.link} width="300" height="200" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen className='video'></iframe>
                                  <div className='content-container'>
                                  <p className='content'>Movie: {d.name}</p>
                                 </div>
@@ -68,7 +68,7 @@ class Home extends Component {
                     <div className='cards'>
                             {filteredGames.map((g) => (
                                 <div className='song-container' key={g.name}>
-                               <iframe width="300" src={g.game} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen className='video'></iframe>
+                               <iframe width="300" height="200" src={g.game} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen className='video'></iframe>
                                 <div className='content-container'>
                                  <p className='content'>{g.name}</p>
                                 </div>

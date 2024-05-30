@@ -1,7 +1,18 @@
 [
     {
+        "name": "Selfish",
+        "shorts": "https://www.youtube.com/embed/8Ah37rER6Tw",
+        "link": "https://www.youtube.com/embed/ySJQaOxPULs?si=f4xu1JG4j-konfd4"
+    },
+    {
+        "name": "Tulasi",
+        "link": "https://www.youtube.com/embed/LZm_X-C35_w?si=4LOJSENnSMLkEuVt",
+        "shorts": "https://www.youtube.com/embed/Z13ZAmd7kUw"
+    },
+    {
         "name": "kshana Kshanam",
-        "link": "https://www.youtube.com/embed/yhEpcNQftpg?si=ywtMGdpRpaqNsjZO"
+        "link": "https://www.youtube.com/embed/yhEpcNQftpg?si=ywtMGdpRpaqNsjZO",
+        "shorts":"https://www.youtube.com/embed/kT4Bgd2FLlw"
     },
     {
         "name": "Avara",
@@ -9,8 +20,14 @@
         "shorts":"https://www.youtube.com/embed/IS1-8pbXFrk"
     },
     {
+        "name": "HanuMan",
+        "link": "https://www.youtube.com/embed/YyLDxAsoh8Y?si=EvdBhcF69S3wDGY5",
+        "shorts": "https://www.youtube.com/embed/Hdj0C4-LM-w"
+    }, 
+    {
         "name": "Manam",
-        "link": "https://www.youtube.com/embed/0cAMksLm7Rg?si=2NLzRMQW6r9PEP9q"
+        "link": "https://www.youtube.com/embed/0cAMksLm7Rg?si=2NLzRMQW6r9PEP9q",
+        "shorts": "https://www.youtube.com/embed/zVpNFWSsyDU"
         
     },
     {
@@ -21,11 +38,6 @@
         "name": "Remo",
         "link": "https://www.youtube.com/embed/bSuR_hQ16Uw?si=oSwEErs00M2mnZLh"
     },
-    {
-        "name": "HanuMan",
-        "link": "https://www.youtube.com/embed/YyLDxAsoh8Y?si=EvdBhcF69S3wDGY5",
-        "shorts": "https://www.youtube.com/embed/Hdj0C4-LM-w"
-    }, 
     {
         "name": "Dj Tillu 2",
         "link": "https://www.youtube.com/embed/Ydeex3Wr970?si=iFhj4UKp6R4Cap0I"
