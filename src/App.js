@@ -1,3 +1,4 @@
+import React from 'react';
 import NavBar from './NavBar'
 import Home from './Home'
 import { useEffect, useState } from 'react';
@@ -16,10 +17,12 @@ const App = () => {
   }, [theme])
 
   return (
-    <div className={`container ${theme}`}>
+    <React.Fragment>
+      <div className={`container ${theme}`}>
       <NavBar theme={theme} setTheme={setTheme} setSearchQuery={setSearchQuery} />
       <Home searchQuery={searchQuery}/>
     </div>
+    </React.Fragment>
   )
 }
 
